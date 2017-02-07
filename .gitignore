@@ -1,0 +1,6 @@
+node_modules/
+*.swp
+coverage/
+.DS_Store
+build/
+npm-debug.log

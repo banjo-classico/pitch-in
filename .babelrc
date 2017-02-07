@@ -1,0 +1,9 @@
+{
+  "presets": ["movio"],
+  "plugins": ["transform-flow-strip-types", "react-hot-loader/babel"],
+  "env": {
+    "test": {
+      "plugins": ["rewire-exports"],
+    }
+  }
+}
