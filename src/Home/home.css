@@ -1,0 +1,6 @@
+@import 'colours.css';
+
+.container {
+  background: var(--color-viking);
+  height: 300px;
+}
