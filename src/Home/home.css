@@ -3,4 +3,11 @@
 .container {
   background: var(--color-viking);
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  color: white;
 }

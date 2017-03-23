@@ -74,7 +74,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: '../public/index.html',
       inject: true
     }),
     new webpack.DefinePlugin({
@@ -92,7 +92,7 @@ module.exports = {
 
   resolve: {
     modules: [
-      path.join(__dirname, 'src'),
+      path.join(__dirname, 'build'),
       "node_modules"
     ],
     extensions: ['.js', '.jsx']
